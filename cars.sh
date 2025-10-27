@@ -11,6 +11,10 @@ do
             read -rp "What is the model of the car? " model;
             echo -e "\n${year}:${make}:${model}" >> ./my-old-cars;;
         2)
+            mapfile -t cars-list < ./my-old-cars;
+            carsLi
+            
+            
             cat ./my-old-cars;;
         3)
             echo "Exiting..."

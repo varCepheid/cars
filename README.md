@@ -38,7 +38,11 @@ I also tested the file inputs in the `cars-input` file.
 A minor challenge was that a new car would be added to the list with improper line spacing, so I learned that I can use the `-e` flag with the `echo` command to make `/n` print a new line. A bigger challenge was sorting the list by year when displaying the cars.
 
 ## Resources
-I referenced last week's assignment, animals, and a StackExchange page about using new lines with the `echo` command.
+I referenced last week's assignment, animals, and the following internet pages:
+[using the `mapfile` command](https://stackoverflow.com/questions/30988586/creating-an-array-from-a-text-file-in-bash)
+[inserting a new line in the `echo` command](https://stackoverflow.com/questions/20536112/how-can-i-insert-a-new-line-in-a-linux-shell-script)
+[sorting arrays](https://stackoverflow.com/questions/7442417/how-to-sort-an-array-in-bash)
+[using the `sort` command](https://www.geeksforgeeks.org/linux-unix/sort-command-linuxunix-examples/)
 
 ## License
 This project is part of coursework for Chapman University and is intended for educational purposes.
