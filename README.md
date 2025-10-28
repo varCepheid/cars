@@ -43,6 +43,8 @@ I referenced last week's assignment, animals, and the following internet pages:
 [inserting a new line in the `echo` command](https://stackoverflow.com/questions/20536112/how-can-i-insert-a-new-line-in-a-linux-shell-script)
 [sorting arrays](https://stackoverflow.com/questions/7442417/how-to-sort-an-array-in-bash)
 [using the `sort` command](https://www.geeksforgeeks.org/linux-unix/sort-command-linuxunix-examples/)
+[replacing characters in a string using `tr`](https://stackoverflow.com/questions/2871181/replacing-some-characters-in-a-string-with-another-character)
+[replacing characters in a string using `sed`](https://linuxize.com/post/how-to-use-sed-to-find-and-replace-string-in-files/)
 
 ## License
 This project is part of coursework for Chapman University and is intended for educational purposes.
