@@ -11,7 +11,7 @@ do
             read -rp "What is the model of the car? " model;
             echo -e "${year}:${make}:${model}" >> ./my-old-cars;;
         2)
-            mapfile -t carsList <<< "$(sort -n ~/cars/my-old-cars)";
+            mapfile -t carsList <<< "$(sort -n ./my-old-cars)";
             for ((i=0; i<${#carsList}; i++))
             do
                 if [ ! "${carsList[i]}" ]; then
